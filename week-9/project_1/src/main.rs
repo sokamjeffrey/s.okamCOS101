@@ -15,7 +15,7 @@ fn main() {
     file.write_all("Legend, Turbo King, Williams,".as_bytes()).expect("write failed");
     
     file.write_all("Non-Alcoholic:\n".as_bytes()).expect("write failed");
-    file.write_all("Maltina, Amstel Malta, Malta Gold, Fayrouz".as_bytes()).expect("write failed");
+    file.write_all("Maltin, Amstel Malta, Malta Gold, Fayrouz".as_bytes()).expect("write failed");
 
     println!("Data written to file successfully.");
 }
